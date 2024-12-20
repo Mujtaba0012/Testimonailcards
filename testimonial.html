@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css" type="text/css">
+    <title>Testimonial Cards</title>
+</head>
+<body>
+
+    <!-- Simple Testimonial Section -->
+     <h1>Simple Testimonial Section</h1>
+
+     <section class="testimonial-section">
+        <div class="testimonial-card">
+            <img src="file:///E:/PROJECTS/Testimonial%20Cards/1.jpg" alt="John Doe">
+            <h3>John Doe</h3>
+            <p>"This product changed my life! It's exactly what I needed."</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="file:///E:/PROJECTS/Testimonial%20Cards/3.jpg" alt="Jane Smith">
+            <h3>Jane Smith</h3>
+            <p>"Fantastic service and quality. Highly recommend to everyone."</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="file:///E:/PROJECTS/Testimonial%20Cards/2.jpg" alt="Samuel Clark">
+            <h3>Samuel Clark</h3>
+            <p>"A very reliable and useful product. Definitely worth the investment."</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="file:///E:/PROJECTS/Testimonial%20Cards/4.jpg" alt="Emily White">
+            <h3>Emily White</h3>
+            <p>"Great experience. The team was very helpful and responsive."</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+    </section>
+
+     <!-- Section With Background -->
+     <div style="background-color: #00fc15; background-size: cover; background-position: center; padding: 40px; color: #0a0000; text-align: center;">
+        <div style="margin: 20px auto; max-width: 800px; background: #ffd900; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+            <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+                <img src="file:///E:/PROJECTS/Testimonial%20Cards/3.jpg" 
+                     class="rounded-circle img-fluid" 
+                     alt="John Doe's avatar" 
+                     style="width: 150px; height: 150px; object-fit: cover; border: 4px solid #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);" />
+            </div>
+            <h3 style="margin-bottom: 10px; font-size: 24px; color: #333;">John Doe</h3>
+            <p style="margin-bottom: 10px; font-size: 16px; color: #555; font-style: italic;">
+                "This service was exceptional! Highly recommend to everyone."
+            </p>
+            <div style="font-size: 20px; color: #ffd700;">⭐⭐⭐⭐⭐</div>
+        </div>
+     </div>
+    
+    
+
+    <!-- Small Testimonials Carousel -->
+    <section class="testimonial-section" style="padding: 40px 20px; background-color: #f9f9f9;">
+        <h2 style="text-align: center; font-size: 24px; margin-bottom: 20px; color: #333;">Testimonials</h2>
+    
+        <div style="position: relative; max-width: 800px; margin: auto; overflow: hidden; border-radius: 10px;">
+            <!-- Radio Inputs -->
+            <input type="radio" id="slide1" name="testimonial" checked style="display: none;">
+            <input type="radio" id="slide2" name="testimonial" style="display: none;">
+            <input type="radio" id="slide3" name="testimonial" style="display: none;">
+    
+            <!-- Testimonial Slides -->
+            <div class="testimonial-slides" style="display: flex; transition: transform 0.5s ease;">
+                <div class="testimonial-slide" style="min-width: 100%; text-align: center; padding: 20px; background: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <h3 style="font-size: 18px; color: #333;">John Doe</h3>
+                    <p style="font-size: 16px; color: #555; font-style: italic;">"This product is amazing! Highly recommend."</p>
+                </div>
+                <div class="testimonial-slide" style="min-width: 100%; text-align: center; padding: 20px; background: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <h3 style="font-size: 18px; color: #333;">Jane Smith</h3>
+                    <p style="font-size: 16px; color: #555; font-style: italic;">"Exceptional quality and service. Will come back for sure."</p>
+                </div>
+                <div class="testimonial-slide" style="min-width: 100%; text-align: center; padding: 20px; background: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <h3 style="font-size: 18px; color: #333;">Samuel Clark</h3>
+                    <p style="font-size: 16px; color: #555; font-style: italic;">"The best experience I’ve ever had. Top-notch!"</p>
+                </div>
+            </div>
+    
+            <!-- Navigation Dots -->
+            <div style="text-align: center; margin-top: 15px;">
+                <label for="slide1" style="cursor: pointer; margin: 0 5px; font-size: 20px; color: #999;">⬤</label>
+                <label for="slide2" style="cursor: pointer; margin: 0 5px; font-size: 20px; color: #999;">⬤</label>
+                <label for="slide3" style="cursor: pointer; margin: 0 5px; font-size: 20px; color: #999;">⬤</label>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Review Cards -->
+    <section class="testimonial-section">
+        <h2 style="text-align: center;">Customer Reviews</h2>
+
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+          
+          <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; max-width: 300px; text-align: center;">
+            <h3>John Doe</h3>
+            <p>"Amazing product! Delivered on time and exceeded expectations."</p>
+            <div>⭐⭐⭐⭐⭐</div>
+          </div>
+          
+          <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; max-width: 300px; text-align: center;">
+            <h3>Jane Smith</h3>
+            <p>"Very satisfied with the quality and customer service."</p>
+            <div>⭐⭐⭐⭐⭐</div>
+          </div>
+          
+          <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; max-width: 300px; text-align: center;">
+            <h3>Emily White</h3>
+            <p>"Highly recommend! Will definitely purchase again."</p>
+            <div>⭐⭐⭐⭐⭐</div>
+          </div>
+      
+        </div>
+      
+    </section>
+
+    <!-- Testimonials with Gradient Background -->
+    <div style="background: linear-gradient(135deg, #6a11cb, #2575fc); color: white; padding: 50px;">
+        <h2 style="text-align: center; margin-bottom: 40px;">What Our Clients Say</h2>
+    
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+          
+          <div style="background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 20px; max-width: 300px; text-align: center;">
+            <h3>John Doe</h3>
+            <p>"The service was outstanding, and I couldn't be happier with the results!"</p>
+            <div>⭐⭐⭐⭐⭐</div>
+          </div>
+    
+          <div style="background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 20px; max-width: 300px; text-align: center;">
+            <h3>Jane Smith</h3>
+            <p>"Exceptional experience! I highly recommend their services."</p>
+            <div>⭐⭐⭐⭐⭐</div>
+          </div>
+    
+          <div style="background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 20px; max-width: 300px; text-align: center;">
+            <h3>Emily White</h3>
+            <p>"A great team and a seamless process from start to finish!"</p>
+            <div>⭐⭐⭐⭐⭐</div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    <!-- Two Columns Testimonials -->
+    <section class="testimonial-section">
+        <h2>What Our Clients Say</h2>
+        <h2 style="text-align: center;">What Our Clients Say</h2>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px; max-width: 800px; margin-left: auto; margin-right: auto;">
+    
+    <div style="flex: 1; min-width: 300px; border: 1px solid #ccc; border-radius: 10px; padding: 20px;">
+      <h3>John Doe</h3>
+      <p>"The quality of service was excellent! Truly impressed with the team's efforts."</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+    
+    <div style="flex: 1; min-width: 300px; border: 1px solid #ccc; border-radius: 10px; padding: 20px;">
+      <h3>Jane Smith</h3>
+      <p>"Outstanding results and a seamless experience. Highly recommend!"</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+    
+    <div style="flex: 1; min-width: 300px; border: 1px solid #ccc; border-radius: 10px; padding: 20px;">
+      <h3>Emily White</h3>
+      <p>"A fantastic service from start to finish. Will definitely return!"</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+    
+    <div style="flex: 1; min-width: 300px; border: 1px solid #ccc; border-radius: 10px; padding: 20px;">
+      <h3>Samuel Clark</h3>
+      <p>"The attention to detail was top-notch. Great work!"</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+
+  </div>
+    </section>
+
+    <!-- Three Columns Testimonials -->
+    <section class="testimonial-section">
+        <h2>What Our Clients Say</h2>
+         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+
+    <div style="flex: 1; min-width: 300px; max-width: 400px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; text-align: center;">
+      <h3>John Doe</h3>
+      <p>"Amazing service and great attention to detail. Highly recommended!"</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+
+    <div style="flex: 1; min-width: 300px; max-width: 400px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; text-align: center;">
+      <h3>Jane Smith</h3>
+      <p>"Fantastic experience! Everything was handled smoothly."</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+
+    <div style="flex: 1; min-width: 300px; max-width: 400px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; text-align: center;">
+      <h3>Samuel Clark</h3>
+      <p>"The team exceeded my expectations. I'll definitely return!"</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+
+    <div style="flex: 1; min-width: 300px; max-width: 400px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; text-align: center;">
+      <h3>Emily White</h3>
+      <p>"Great work and excellent communication throughout the project."</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+
+    <div style="flex: 1; min-width: 300px; max-width: 400px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; text-align: center;">
+      <h3>Michael Brown</h3>
+      <p>"A seamless experience from start to finish. Thank you!"</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+
+    <div style="flex: 1; min-width: 300px; max-width: 400px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; text-align: center;">
+      <h3>Sophia Green</h3>
+      <p>"Very professional and efficient. Will recommend to others."</p>
+      <div style="color: gold;">⭐⭐⭐⭐⭐</div>
+    </div>
+
+  </div>
+
+    </section>
+
+</body>
+</html>
